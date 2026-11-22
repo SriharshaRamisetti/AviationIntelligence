@@ -1,0 +1,36 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+logs/
+*.log
+
+# Spark checkpoints and generated data
+checkpoints/
+spark-warehouse/
+spark_checkpoint/
+storage/
+
+# IDE
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Spark generated files
+metastore_db/
+derby.log
